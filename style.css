@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+
+}
+
+h1 {
+  color: #160C28;
+  padding: 20px 15px 15px 15px;
+  font-size: 36px;
+}
+
+header {
+  /*background: #2C3D55;*/
+  background: #160C28;
+  height: 15%;
+}
+
+ul {
+  list-style: none;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
+li {
+  display: inline;
+  margin: 0px 15px;
+}
+
+section {
+  /*background: #EFEFEF;*/
+  background: #F9F4F8;
+}
+
+article{
+  margin: 10px;
+  width: 225px;
+  height: 310px;
+  display: inline-block;
+}
+
+.arrow-btn {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.banner {
+ position: relative;
+ height: 100%;
+ width: 100%;
+}
+
+.article-top-third {
+  height: 33.3%;
+  position: relative;
+}
+
+.list-container {
+    background: purple;
+    display: inline-block;
+}
+
+.user-container {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  width: 180px;
+  height: 25px;
+}
+
+.small-caps {
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+.name {
+  color: #22333B;
+}
+
+.playlist-name {
+  color: #22333B;
+}
+
+.numbers {
+font-size: 22px;
+}
+
+.article-bottom-two-thirds {
+    background: white;
+    height: 66.6%;
+    padding: 5px;
+}
+
+.icon {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+}
+
+.title {
+  font-size: 17px;
+  color: #22333B;
+}
+
+.nav {
+  color: gray;
+  display: inline;
+  margin: 3px;
+  font-size: 22px;
+}
+
+.views {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.views-txt {
+  color: white;
+  text-align: center;
+}
+
+.name-date-container {
+  margin: 5px 0;
+}
+
+.playlist-container {
+  margin: 5px 0;
+}
+
+.date-time {
+  color: #A9A9A9;
+  font-size: 12px;
+}
+
+.url-container {
+  background: #EEEEEE;
+  margin: 12px 5px;
+}
+
+.user-url {
+  color: gray;
+  padding: 2px;
+  overflow-wrap: break-word;
+  font-size: 12px;
+}
+
+.attachments-container {
+    margin: 8px 0 5px 0;
+}
+
+.logo-section {
+  height: 50px;
+  width: 185px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: inline-block;
+  /*background-image: url("images/doctor_who_logo.png");
+  background-size: cover;
+  background-position: top;*/
+}
+
+.attachments-cnt {
+  color: #29588F;
+}
+
+.view-cnt {
+  font-size: 20px;
+}
+
+.card-container {
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: fit-content;
+  flex-grow: 1;*/
+  margin: 0 10px;
+
+}
+
+#views-txt {
+    font-size: 14px;
+}
+
+#shares {
+  color: #F9F4F8;
+}
+
+#username {
+  color: #29588F;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#logo {
+  display: inline-block;
+  height: 50px;
+  width: 175px;
+}
+
+#attachments-cnt{
+  color: #6290C3;
+}
+
+#avatar {
+  height: 20px;
+  width: 20px;
+}
+
+#dropdown {
+  height: 20px;
+  width: 20px;
+}
+
+#card-1 {
+  background-image: url("images/first_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-2 {
+  background-image: url("images/second_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-3 {
+  background-image: url("images/third_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-4 {
+  background-image: url("images/fourth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-5 {
+  background-image: url("images/fifth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-6 {
+  background-image: url("images/sixth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-7 {
+  background-image: url("images/seventh_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-8 {
+  background-image: url("images/eighth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-9 {
+  background-image: url("images/war_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-10 {
+  background-image: url("images/ninth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-11 {
+  background-image: url("images/tenth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-12 {
+  background-image: url("images/eleventh_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-13 {
+  background-image: url("images/twelfth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#card-14 {
+  background-image: url("images/thirteenth_doctor.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+@media (max-width: 1272px) {
+  section {
+
+  }
+}
+
+@media (max-width: 450px) {
+  article {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+  }
+  header {
+    height: 25%;
+    overflow-y: visible;
+  }
+  li {
+    display: block;
+  }
+  .card-container {
+    overflow-y: scroll;
+  }
+  .user-container {
+    position: absolute;
+    top: 52px;
+    left: 3px;
+  }
+  .logo-section {
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  #logo{
+
+  }
+  .user-container {
+    width: 100%;
+  }
+}

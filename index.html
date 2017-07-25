@@ -2,43 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <title>Static Comp 2</title>
   </head>
   <body>
     <header>
-      <div class="user-section">
-        <img class="icon" id="avatar" src="" alt=""/>
-        <p id="username">Admin Username</p>
-        <img class="icon" id="dropdown" src="" alt="" />
-      </div>
-      <div class="list-container">
-        <ul>
-          <li>
-            <img class="icon" id="shares_img" src="" alt="" />
-            <p class="small-caps" id="shares">Shares</p>
-          </li>
-          <li>
-            <img class="icon" id="playlists_img" src="" alt="" />
-            <p class="small-caps" id="playlists">Playlists</p>
-          </li>
-          <li>
-            <img class="icon" id="personal-videos-img" src="" alt="" />
-            <p class="small-caps" id="personal-videos">Playlist</p>
-          </li>
-        </ul>
-      </div>
-      <div class="logo-section">
-        <img id="logo" src="" alt="" />
+      <div class="banner">
+        <div class="user-container">
+          <img class="icon" id="avatar" src="images/avatar_icon.png" alt="avatar icon"/>
+          <p id="username">Admin Username</p>
+          <img class="icon" id="dropdown" src="images/dropdown.png" alt="dropdown icon" />
+        </div>
+        <div class="list-container">
+          <ul>
+            <li>
+              <img class="icon" id="shares_img" src="images/share_icon.png" alt="" />
+              <p class="nav small-caps" id="shares">shares</p>
+            </li>
+            <li>
+              <img class="icon" id="playlists_img" src="images/playlist_icon.png" alt="" />
+              <p class="nav small-caps" id="playlists">playlists</p>
+            </li>
+            <li>
+              <img class="icon" id="personal-videos-img" src="images/personal_icon.png" alt="" />
+              <p class="nav small-caps" id="personal-videos">personal videos</p>
+            </li>
+          </ul>
+        </div>
+        <div class="logo-section">
+          <img id="logo" src="images/doctor_who_logo.png" alt="doctor who logo" />
+        </div>
       </div>
     </header>
     <section>
       <h1>Shares</h1>
+      <div class="card-container">
       <article class="cards">
-        <div class="article-top-third">
-          <img class="arrow-btn" src="" alt="" />
+        <div class="article-top-third" id="card-1">
+          <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
           <div class="views">
-            <p class="label-text small-caps" id="views-txt">Views</p>
-            <p class="view-cnt numbers">02</p>
+            <p class="views-txt small-caps" id="views-txt">views</p>
+            <p class="views-txt view-cnt numbers" id="num-views">02</p>
           </div>
         </div>
         <div class="article-bottom-two-thirds">
@@ -50,15 +56,354 @@
             <p class="user-url">www.urlgoeshere.com</p>
           </div>
           <div class="playlist-container">
-            <p class="playlist-txt small-caps">Playlist</p>
+            <p class="playlist-txt small-caps title">playlist</p>
             <p class-"playlist-name name">Name of Playlist</p>
           </div>
           <div class="attachments-container">
-            <p class="attachments-txt small-caps">Attachments</p>
-            <p class="attachments-cnt numbers">06</p>
+            <p class="attachments-txt small-caps title">attachments</p>
+            <p class="attachments-cnt numbers">04</p>
           </div>
         </div>
       </article>
+      <article class="cards">
+      <div class="article-top-third" id="card-2">
+        <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+        <div class="views">
+          <p class="views-txt small-caps" id="views-txt">views</p>
+          <p class="views-txt view-cnt numbers">02</p>
+        </div>
+      </div>
+      <div class="article-bottom-two-thirds">
+        <div class="name-date-container">
+          <p class="username name">Recipient's Username</p>
+          <p class="date-time">Monday 1/23/16 10:22am</p>
+        </div>
+        <div class="url-container">
+          <p class="user-url">www.urlgoeshere.com</p>
+        </div>
+        <div class="playlist-container">
+          <p class="playlist-txt small-caps title">playlist</p>
+          <p class-"playlist-name name">Name of Playlist</p>
+        </div>
+        <div class="attachments-container">
+          <p class="attachments-txt small-caps title">attachments</p>
+          <p class="attachments-cnt numbers">04</p>
+        </div>
+      </div>
+      </article>
+      <article class="cards">
+    <div class="article-top-third" id="card-3">
+      <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+      <div class="views">
+        <p class="views-txt small-caps" id="views-txt">views</p>
+        <p class="views-txt view-cnt numbers">02</p>
+      </div>
+    </div>
+    <div class="article-bottom-two-thirds">
+      <div class="name-date-container">
+        <p class="username name">Recipient's Username</p>
+        <p class="date-time">Monday 1/23/16 10:22am</p>
+      </div>
+      <div class="url-container">
+        <p class="user-url">www.urlgoeshere.com</p>
+      </div>
+      <div class="playlist-container">
+        <p class="playlist-txt small-caps title">playlist</p>
+        <p class-"playlist-name name">Name of Playlist</p>
+      </div>
+      <div class="attachments-container">
+        <p class="attachments-txt small-caps title">attachments</p>
+        <p class="attachments-cnt numbers">04</p>
+      </div>
+    </div>
+  </article>
+  <article class="cards">
+  <div class="article-top-third" id="card-4">
+    <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+    <div class="views">
+      <p class="views-txt small-caps" id="views-txt">views</p>
+      <p class="views-txt view-cnt numbers">02</p>
+    </div>
+  </div>
+  <div class="article-bottom-two-thirds">
+    <div class="name-date-container">
+      <p class="username name">Recipient's Username</p>
+      <p class="date-time">Monday 1/23/16 10:22am</p>
+    </div>
+    <div class="url-container">
+      <p class="user-url">www.urlgoeshere.com</p>
+    </div>
+    <div class="playlist-container">
+      <p class="playlist-txt small-caps title">playlist</p>
+      <p class-"playlist-name name">Name of Playlist</p>
+    </div>
+    <div class="attachments-container">
+      <p class="attachments-txt small-caps title">attachments</p>
+      <p class="attachments-cnt numbers">04</p>
+    </div>
+  </div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-5">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-6">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-7">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-8">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-9">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-10">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-11">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-12">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-13">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+<article class="cards">
+<div class="article-top-third" id="card-14">
+  <img class="arrow-btn" src="images/arrow_icon.jpg" alt="" />
+  <div class="views">
+    <p class="views-txt small-caps" id="views-txt">views</p>
+    <p class="views-txt view-cnt numbers">02</p>
+  </div>
+</div>
+<div class="article-bottom-two-thirds">
+  <div class="name-date-container">
+    <p class="username name">Recipient's Username</p>
+    <p class="date-time">Monday 1/23/16 10:22am</p>
+  </div>
+  <div class="url-container">
+    <p class="user-url">www.urlgoeshere.com</p>
+  </div>
+  <div class="playlist-container">
+    <p class="playlist-txt small-caps title">playlist</p>
+    <p class-"playlist-name name">Name of Playlist</p>
+  </div>
+  <div class="attachments-container">
+    <p class="attachments-txt small-caps title">attachments</p>
+    <p class="attachments-cnt numbers">04</p>
+  </div>
+</div>
+</article>
+</div>
     <section>
   </body>
 </html>
